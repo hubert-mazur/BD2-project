@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7df0bc7f-c4d5-45e2-a79e-144680aafb46" name="Administrator@MSSQLSERVER 2020-06-21 23:01:16" runUser="MSSQLSERVER\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="e3264741-4540-4a4a-a8de-576e98effc19">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Desktop\Projekt\Testy\test\TestResults\Administrator_MSSQLSERVER 2020-06-21 23_01_16">
+      <DeploymentItem filename="C:\Users\Administrator\Desktop\Projekt\Testy\test\bin\Release\test.exe" />
+      <DeploymentItem filename="C:\Users\Administrator\Desktop\Projekt\Projekt\obj\Debug\SqlClassLibrary.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="7" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2020-06-21T23:01:16.0770800+02:00" queuing="2020-06-21T23:01:16.5580800+02:00" start="2020-06-21T23:01:16.7150800+02:00" finish="2020-06-21T23:01:18.0660800+02:00" />
+  <TestDefinitions>
+    <UnitTest name="PointInclusionTest3" storage="c:\users\administrator\desktop\projekt\testy\unittests\bin\debug\unittests.dll" id="64ccbf21-67c3-f460-f6d8-694fe6751bbb">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="aaaffc46-0dae-4800-9fce-fd77bbbb4626" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Projekt\Testy\unitTests\bin\Debug\unitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="unitTests.UnitTest, unitTests" name="PointInclusionTest3" />
+    </UnitTest>
+    <UnitTest name="PointInclusionTest1" storage="c:\users\administrator\desktop\projekt\testy\unittests\bin\debug\unittests.dll" id="6ed5ea67-55d0-1364-da6d-4afd738a0e9f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="71333b4f-3bb2-4b07-a8f0-d1309431e33e" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Projekt\Testy\unitTests\bin\Debug\unitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="unitTests.UnitTest, unitTests" name="PointInclusionTest1" />
+    </UnitTest>
+    <UnitTest name="LenghtTest3" storage="c:\users\administrator\desktop\projekt\testy\unittests\bin\debug\unittests.dll" id="4f08e93b-d94b-f524-4628-b652b170257a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a089a3cc-0fb6-4798-b138-a0355d4558f9" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Projekt\Testy\unitTests\bin\Debug\unitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="unitTests.UnitTest, unitTests" name="LenghtTest3" />
+    </UnitTest>
+    <UnitTest name="PointInclusionTest2" storage="c:\users\administrator\desktop\projekt\testy\unittests\bin\debug\unittests.dll" id="fb408dc1-6238-b282-156a-98f9d452e49a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9b34d3e4-58e2-4564-8303-b94516ce9cff" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Projekt\Testy\unitTests\bin\Debug\unitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="unitTests.UnitTest, unitTests" name="PointInclusionTest2" />
+    </UnitTest>
+    <UnitTest name="LenghtTest2" storage="c:\users\administrator\desktop\projekt\testy\unittests\bin\debug\unittests.dll" id="04218712-d607-2bab-9c62-3b4a42925934">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="17b2dd0a-4df5-4fa0-91f7-f527665ae657" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Projekt\Testy\unitTests\bin\Debug\unitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="unitTests.UnitTest, unitTests" name="LenghtTest2" />
+    </UnitTest>
+    <UnitTest name="LenghtTest1" storage="c:\users\administrator\desktop\projekt\testy\unittests\bin\debug\unittests.dll" id="a2358529-9339-1672-c05a-c788fe0ca1bd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ba0608a7-ac16-4e24-83c2-b49569207a3b" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Projekt\Testy\unitTests\bin\Debug\unitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="unitTests.UnitTest, unitTests" name="LenghtTest1" />
+    </UnitTest>
+    <UnitTest name="PointInclusionTest4" storage="c:\users\administrator\desktop\projekt\testy\unittests\bin\debug\unittests.dll" id="0e8a3679-2481-360e-0dd8-c15a100fc509">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4d7b99fc-678d-4bd8-b23d-16c910f37a85" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Projekt\Testy\unitTests\bin\Debug\unitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="unitTests.UnitTest, unitTests" name="PointInclusionTest4" />
+    </UnitTest>
+    <UnitTest name="AreaTest" storage="c:\users\administrator\desktop\projekt\testy\unittests\bin\debug\unittests.dll" id="94eb9265-23af-e4a5-9643-5f18c53c7a87">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4490117f-9797-4a6e-a86f-7a32be982f2c" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Projekt\Testy\unitTests\bin\Debug\unitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="unitTests.UnitTest, unitTests" name="AreaTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="04218712-d607-2bab-9c62-3b4a42925934" executionId="17b2dd0a-4df5-4fa0-91f7-f527665ae657" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e8a3679-2481-360e-0dd8-c15a100fc509" executionId="4d7b99fc-678d-4bd8-b23d-16c910f37a85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f08e93b-d94b-f524-4628-b652b170257a" executionId="a089a3cc-0fb6-4798-b138-a0355d4558f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64ccbf21-67c3-f460-f6d8-694fe6751bbb" executionId="aaaffc46-0dae-4800-9fce-fd77bbbb4626" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ed5ea67-55d0-1364-da6d-4afd738a0e9f" executionId="71333b4f-3bb2-4b07-a8f0-d1309431e33e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94eb9265-23af-e4a5-9643-5f18c53c7a87" executionId="4490117f-9797-4a6e-a86f-7a32be982f2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2358529-9339-1672-c05a-c788fe0ca1bd" executionId="ba0608a7-ac16-4e24-83c2-b49569207a3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb408dc1-6238-b282-156a-98f9d452e49a" executionId="9b34d3e4-58e2-4564-8303-b94516ce9cff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="17b2dd0a-4df5-4fa0-91f7-f527665ae657" testId="04218712-d607-2bab-9c62-3b4a42925934" testName="LenghtTest2" computerName="MSSQLSERVER" duration="00:00:00.1104262" startTime="2020-06-21T23:01:16.8900800+02:00" endTime="2020-06-21T23:01:17.1370800+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>-- DB Connection OK --
+There is already an object named 'points' in the database.
+INSERT INTO points VALUES ('3,8'),('10,14'),('12,2'),('11,-6'),('-3,-9'),('-13,0'),('-9,10'),('3,8');
+LOADED points and their indexes: 
+1, (3, 8)
+2, (10, 14)
+3, (12, 2)
+4, (11, -6)
+5, (-3, -9)
+6, (-13, 0)
+7, (-9, 10)
+8, (3, 8)
+9, (3, 8)
+10, (10, 14)
+11, (12, 2)
+12, (11, -6)
+13, (-3, -9)
+14, (-13, 0)
+15, (-9, 10)
+16, (3, 8)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d7b99fc-678d-4bd8-b23d-16c910f37a85" testId="0e8a3679-2481-360e-0dd8-c15a100fc509" testName="PointInclusionTest4" computerName="MSSQLSERVER" duration="00:00:00.0292817" startTime="2020-06-21T23:01:17.1400800+02:00" endTime="2020-06-21T23:01:17.1720800+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>-- DB Connection OK --
+INSERT INTO points VALUES ('3,8'),('10,14'),('12,2'),('11,-6'),('-3,-9'),('-13,0'),('-9,10'),('3,8');
+LOADED points and their indexes: 
+1, (3, 8)
+2, (10, 14)
+3, (12, 2)
+4, (11, -6)
+5, (-3, -9)
+6, (-13, 0)
+7, (-9, 10)
+8, (3, 8)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a089a3cc-0fb6-4798-b138-a0355d4558f9" testId="4f08e93b-d94b-f524-4628-b652b170257a" testName="LenghtTest3" computerName="MSSQLSERVER" duration="00:00:00.0258667" startTime="2020-06-21T23:01:17.1760800+02:00" endTime="2020-06-21T23:01:17.2040800+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>-- DB Connection OK --
+INSERT INTO points VALUES ('3,8'),('10,14'),('12,2'),('11,-6'),('-3,-9'),('-13,0'),('-9,10'),('3,8');
+LOADED points and their indexes: 
+1, (3, 8)
+2, (10, 14)
+3, (12, 2)
+4, (11, -6)
+5, (-3, -9)
+6, (-13, 0)
+7, (-9, 10)
+8, (3, 8)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aaaffc46-0dae-4800-9fce-fd77bbbb4626" testId="64ccbf21-67c3-f460-f6d8-694fe6751bbb" testName="PointInclusionTest3" computerName="MSSQLSERVER" duration="00:00:00.0244138" startTime="2020-06-21T23:01:17.2080800+02:00" endTime="2020-06-21T23:01:17.2350800+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>-- DB Connection OK --
+INSERT INTO points VALUES ('3,8'),('10,14'),('12,2'),('11,-6'),('-3,-9'),('-13,0'),('-9,10'),('3,8');
+LOADED points and their indexes: 
+1, (3, 8)
+2, (10, 14)
+3, (12, 2)
+4, (11, -6)
+5, (-3, -9)
+6, (-13, 0)
+7, (-9, 10)
+8, (3, 8)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="71333b4f-3bb2-4b07-a8f0-d1309431e33e" testId="6ed5ea67-55d0-1364-da6d-4afd738a0e9f" testName="PointInclusionTest1" computerName="MSSQLSERVER" duration="00:00:00.0225420" startTime="2020-06-21T23:01:17.2380800+02:00" endTime="2020-06-21T23:01:17.2630800+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>-- DB Connection OK --
+INSERT INTO points VALUES ('3,8'),('10,14'),('12,2'),('11,-6'),('-3,-9'),('-13,0'),('-9,10'),('3,8');
+LOADED points and their indexes: 
+1, (3, 8)
+2, (10, 14)
+3, (12, 2)
+4, (11, -6)
+5, (-3, -9)
+6, (-13, 0)
+7, (-9, 10)
+8, (3, 8)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4490117f-9797-4a6e-a86f-7a32be982f2c" testId="94eb9265-23af-e4a5-9643-5f18c53c7a87" testName="AreaTest" computerName="MSSQLSERVER" duration="00:00:00.5768514" startTime="2020-06-21T23:01:17.2660800+02:00" endTime="2020-06-21T23:01:17.8460800+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>-- DB Connection OK --
+INSERT INTO points VALUES ('3,8'),('10,14'),('12,2'),('11,-6'),('-3,-9'),('-13,0'),('-9,10'),('3,8');
+LOADED points and their indexes: 
+1, (3, 8)
+2, (10, 14)
+3, (12, 2)
+4, (11, -6)
+5, (-3, -9)
+6, (-13, 0)
+7, (-9, 10)
+8, (3, 8)
+area: 372.6391</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ba0608a7-ac16-4e24-83c2-b49569207a3b" testId="a2358529-9339-1672-c05a-c788fe0ca1bd" testName="LenghtTest1" computerName="MSSQLSERVER" duration="00:00:00.0324072" startTime="2020-06-21T23:01:17.8490800+02:00" endTime="2020-06-21T23:01:17.8840800+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>-- DB Connection OK --
+INSERT INTO points VALUES ('3,8'),('10,14'),('12,2'),('11,-6'),('-3,-9'),('-13,0'),('-9,10'),('3,8');
+LOADED points and their indexes: 
+1, (3, 8)
+2, (10, 14)
+3, (12, 2)
+4, (11, -6)
+5, (-3, -9)
+6, (-13, 0)
+7, (-9, 10)
+8, (3, 8)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b34d3e4-58e2-4564-8303-b94516ce9cff" testId="fb408dc1-6238-b282-156a-98f9d452e49a" testName="PointInclusionTest2" computerName="MSSQLSERVER" duration="00:00:00.0265864" startTime="2020-06-21T23:01:17.8880800+02:00" endTime="2020-06-21T23:01:17.9180800+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>-- DB Connection OK --
+INSERT INTO points VALUES ('3,8'),('10,14'),('12,2'),('11,-6'),('-3,-9'),('-13,0'),('-9,10'),('3,8');
+LOADED points and their indexes: 
+1, (3, 8)
+2, (10, 14)
+3, (12, 2)
+4, (11, -6)
+5, (-3, -9)
+6, (-13, 0)
+7, (-9, 10)
+8, (3, 8)</StdOut>
+        <ErrorInfo>
+          <Message>Test method unitTests.UnitTest.PointInclusionTest2 threw exception:  System.Data.SqlClient.SqlException: The isPointInside function requires 2 argument(s)..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   w Projekt.Tests.IsInside(Double x, Double y) w C:\Users\Administrator\Desktop\Projekt\Testy\test\Program.cs:wiersz 184
+   w unitTests.UnitTest.PointInclusionTest2() w C:\Users\Administrator\Desktop\Projekt\Testy\unitTests\UnitTest1.cs:wiersz 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

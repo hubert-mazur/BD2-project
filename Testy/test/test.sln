@@ -1,18 +1,53 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test.csproj", "{02D135FA-015E-48AE-BD22-F80B62764C8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connection", "Connection.csproj", "{02D135FA-015E-48AE-BD22-F80B62764C8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72220F91-A260-4034-983D-0FAFF9201155}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		test.vsmdi = test.vsmdi
+		test1.vsmdi = test1.vsmdi
+		test2.vsmdi = test2.vsmdi
+		test3.vsmdi = test3.vsmdi
+		test4.vsmdi = test4.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unitTests", "..\unitTests\unitTests.csproj", "{E383ACB6-FF51-455C-ADC3-B531DD997D5F}"
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = test4.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
 		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{02D135FA-015E-48AE-BD22-F80B62764C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{02D135FA-015E-48AE-BD22-F80B62764C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D135FA-015E-48AE-BD22-F80B62764C8D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{02D135FA-015E-48AE-BD22-F80B62764C8D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{02D135FA-015E-48AE-BD22-F80B62764C8D}.Debug|Win32.ActiveCfg = Debug|Any CPU
 		{02D135FA-015E-48AE-BD22-F80B62764C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02D135FA-015E-48AE-BD22-F80B62764C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D135FA-015E-48AE-BD22-F80B62764C8D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{02D135FA-015E-48AE-BD22-F80B62764C8D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{02D135FA-015E-48AE-BD22-F80B62764C8D}.Release|Win32.ActiveCfg = Release|Any CPU
+		{E383ACB6-FF51-455C-ADC3-B531DD997D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E383ACB6-FF51-455C-ADC3-B531DD997D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E383ACB6-FF51-455C-ADC3-B531DD997D5F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E383ACB6-FF51-455C-ADC3-B531DD997D5F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E383ACB6-FF51-455C-ADC3-B531DD997D5F}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{E383ACB6-FF51-455C-ADC3-B531DD997D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E383ACB6-FF51-455C-ADC3-B531DD997D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E383ACB6-FF51-455C-ADC3-B531DD997D5F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E383ACB6-FF51-455C-ADC3-B531DD997D5F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E383ACB6-FF51-455C-ADC3-B531DD997D5F}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

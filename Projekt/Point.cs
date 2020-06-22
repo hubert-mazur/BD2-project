@@ -26,6 +26,7 @@ namespace Projekt
             { return new Point(); }
         }
 
+        // constructor, takes two parameters
         public Point(double latitude, double longitude)
         {
             this.latitude = latitude;
@@ -38,23 +39,27 @@ namespace Projekt
             this.longitude = Double.NaN;
         }
 
+        // getter and setter for latitude (x- coordinate)
         public double Latitude
         {
             get { return this.latitude; }
             set { this.latitude = value; }
         }
 
+        // getter and setter for longitude (y- coordinate)
         public double Longitude
         {
             get { return this.longitude; }
             set { this.longitude = value; }
         }
 
+        // overriden ToString method
         public override string ToString()
         {
             return "(" + this.Latitude.ToString() + ", " + this.Longitude.ToString() + ")";
         }
 
+        // String parser, required by sql server
         public static Point Parse(SqlString s)
         {
             if (s.IsNull)
@@ -66,16 +71,19 @@ namespace Projekt
             return new Point(X,Y);
         }
 
+        // function calculating distance between points
         public SqlDouble distance(Point p)
         {
             return Math.Sqrt(Math.Pow(this.Latitude - p.Latitude, 2) + Math.Pow(this.Longitude - p.Longitude,2));
         }
 
+        // check whether point is legit
         private bool validate()
         {
             return (!Double.IsNaN(this.Latitude) && !Double.IsNaN(this.Longitude));
         }
 
+        // serialization
         #region IBinarySerialize Members
 
         public void Write(System.IO.BinaryWriter writer)
